@@ -50,7 +50,7 @@ mkdir -p ~/mongodb/data/db
 Specify the path of the data directory
 
 ```bash
-mongod --dpath ~/mongodb/data/db
+mongod --dbpath ~/mongodb/data/db
 ```
 
 #### Verity
