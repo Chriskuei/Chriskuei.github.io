@@ -25,13 +25,13 @@ $ ssh-keygen -t rsa -b 4096
 $ ssh-copy-id your-user-name-on-host@host-fqdn-or-ip-goes-here
 ```
 
-  ### Run Remote-SSH: Connect to Host
+### Run Remote-SSH: Connect to Host
 
 Press `Command+Shift+P`, choose **Remote-SSH**, then enter the host and your user on the host in the input box as follows: `user@hostname` . 
 
 That's Done.
 
-###Remember frequently connected host
+### Remember frequently connected host
 
 Run **Remote-SSH: Open Configuration File...** and add the host to the file using the SSH config file format:
 
